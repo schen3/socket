@@ -1,0 +1,25 @@
+{
+  "name": "practice-socketio",
+  "description": "",
+  "main": "",
+  "authors": [
+    "bellcliff <bell.cliff@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "socket.io": "~1.4.5",
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.9",
+    "jquery": "~2.2.0"
+  }
+}

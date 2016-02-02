@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="libs/jquery/dist/jquery.js"></script>
+    <script src="libs/socket.io-client/socket.io.js"></script>
+    <script src="libs/angular/angular.js"></script>
+
+</head>
+
+<body ng-app="main" ng-controller="ChatCtrl as chat">
+    <div ng-include="'login.html'"></div>
+    <div ng-include="'list.html'"></div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+<div class="col-md-4 col-sx-12">
+    <h3>contacts</h3>
+    <!-- show users list -->
+    <div ng-repeat="user in chat.onlineUsers" ng-click="chat.select(user, $event)">
+        {{user}}
+    </div>
+</div>
